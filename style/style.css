@@ -1,0 +1,44 @@
+input {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid;
+    border-radius: 5px;
+    resize: vertical;
+}
+button {
+    color: white;
+    background-color: red;
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 240px;
+
+}
+button:hover {
+    background-color: green;
+    
+}
+textarea {
+    width: 100%;
+    border: 2px solid;
+    border-radius: 5px;
+    resize: vertical;
+}
+
+
+@media only screen and (max-width: 600px) {
+    button{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    div.lottie {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+}
+
+
